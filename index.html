@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/e435aea4c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <form action="" id="form">
+            <div class="title">
+               Get Started
+                
+                </div>
+<!-- user input -->
+           <div>
+             <label for="username">UserName</label>
+             <i class="fa-solid fa-user"></i>
+             <input type="text" name="username" id="username" placeholder="Name">
+             <i class="fas fa-exclamation-circle failure-icon"></i>
+             <i class="far fa-check-circle success-icon"></i>
+                
+
+            <div class="error"></div>
+           </div>
+
+     <!-- Email -->
+           <div>
+            <label for="email">Email</label>
+            <i class="far fa-envelope"></i>
+            
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="abc@gmail.com"
+             />
+            
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+            
+            <div class="error"></div>
+            
+        </div>
+
+           <!-- password -->
+           <div>
+             <label for="password">Password</label>
+             <i class="fas fa-lock"></i>
+             <input type="password" name="password" id="password" placeholder="Password">
+             <i class="fas fa-exclamation-circle failure-icon"></i>
+            
+             <i class="far fa-check-circle success-icon"></i>
+
+            <div class="error"></div>
+           </div>
+
+
+           <button type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+
+   
+
+
+    <script src="./idex.js"></script>
+</body>
+</html>
