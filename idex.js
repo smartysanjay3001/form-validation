@@ -62,5 +62,5 @@ form.addEventListener("submit",(e)=>{
     engine(username,0,"username cannot be blank")
     engine(email,1,'email cannot be blank')
     engine(password,2,"password cannot be blank")
-    alert("submitted");
+    // alert("submitted");
 });
